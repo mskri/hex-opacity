@@ -1,6 +1,6 @@
 {
   "name": "@mskri/hex-opacity",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert opacity percentage into a hex value.",
   "main": "./lib/index.js",
   "bin": {
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/mskri/hex-opacity/issues"
   },
-  "keywords": ["opacity to hex", "hex", "hexadecimal", "rrggbbaa", "transparency hex"]
+  "keywords": [
+    "opacity to hex",
+    "hex",
+    "hexadecimal",
+    "rrggbbaa",
+    "transparency hex"
+  ]
 }
