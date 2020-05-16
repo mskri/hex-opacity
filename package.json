@@ -22,5 +22,6 @@
   },
   "bugs": {
     "url": "https://github.com/mskri/hex-opacity/issues"
-  }
+  },
+  "keywords": ["opacity to hex", "hex", "hexadecimal", "rrggbbaa", "transparency hex"]
 }
