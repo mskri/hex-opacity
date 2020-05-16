@@ -1,0 +1,26 @@
+{
+  "name": "@mskri/hex-opacity",
+  "version": "0.1.0",
+  "description": "Convert opacity percentage into a hex value.",
+  "main": "./lib/index.js",
+  "bin": {
+    "hex-opacity": "./lib/index.js"
+  },
+  "scripts": {
+    "dev": "nodemon",
+    "test": "node lib/hexOpacity.spec.js"
+  },
+  "author": {
+    "name": "Sakari Mursu",
+    "email": "sakari@mursu.dev",
+    "url": "https://mursu.dev/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mskri/hex-opacity"
+  },
+  "bugs": {
+    "url": "https://github.com/mskri/hex-opacity/issues"
+  }
+}
