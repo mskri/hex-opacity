@@ -21,10 +21,17 @@ hex-opacity <opacity value>
 ### Examples
 
 ```bash
-hex-opacity 100
+$ hex-opacity 100
 FF
 
-hex-opacity 50
+$ hex-opacity 50
+80
+```
+
+You can also include the percentage sign if you want
+
+```bash
+$ hex-opacity 50%
 80
 ```
 
