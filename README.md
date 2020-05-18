@@ -1,6 +1,6 @@
 # hex-opacity
 
-Convert opacity percentage into a hex value.
+Convert opacity percentage into a hex value, or opacity hex to percent value.
 
 ## Inspiration
 
@@ -14,17 +14,33 @@ npm install -g @mskri/hex-opacity
 
 ## Usage
 
+Convert percent to hex
+
 ```bash
-hex-opacity <opacity value>
+hex-opacity <percent value>
+
+// or
+hex-opacity --percent <percent value>
+```
+
+Convert hex to percent
+
+```bash
+hex-opacity <hex value>
+
+// or
+hex-opacity --hex <hex value>
 ```
 
 ### Examples
+
+#### Converting percent to hex
 
 ```bash
 $ hex-opacity 100
 FF
 
-$ hex-opacity 50
+$ hex-opacity --percent 50
 80
 ```
 
@@ -33,6 +49,16 @@ You can also include the percentage sign if you want
 ```bash
 $ hex-opacity 50%
 80
+```
+
+#### Converting hex to percent
+
+```bash
+$ hex-opacity 0xFF
+100%
+
+$ hex-opacity --hex 0x80
+50%
 ```
 
 ## License
