@@ -1,6 +1,6 @@
 {
   "name": "@mskri/hex-opacity",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Convert opacity percentage into a hex value.",
   "main": "./lib/index.js",
   "bin": {
